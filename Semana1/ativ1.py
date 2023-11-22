@@ -32,8 +32,11 @@ print ("Novo valor de x: ", y)
 #Alguns métodos disponíveis para variáveis inteiras
 a = 15
 a_str = str(a)
+print ("'a' virou: ", type(a_str))
 a_float = float(a)
+print ("'a' virou: ", type(a_float))
 a_abs = abs(a)
+print ("valor absoluto de a é: ", type(a_abs))
 
 # Método para verificar se o número é par
 is_even = a % 2 == 0
